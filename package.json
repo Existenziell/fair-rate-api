@@ -1,0 +1,23 @@
+{
+  "name": "fair-rate-api",
+  "version": "1.0.0",
+  "description": "JSON API for FairRate App",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Christof Bauer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Existenziell/fair-rate-api"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js --port 3000"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
