@@ -8,7 +8,7 @@ require('dotenv').config();
 // Initialize the app
 const app = express();
 const port = process.env.PORT || 3000;
-const db = process.env.MONGODG_URI;
+const db = process.env.MONGODB_URI;
 
 // Middleware
 app.use(cors());
